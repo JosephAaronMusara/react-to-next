@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL") // Ensure this environment variable is set
+  url      = env("DATABASE_URL")
 }
 
 model Todo {
